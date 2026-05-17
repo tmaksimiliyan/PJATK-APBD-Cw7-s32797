@@ -9,7 +9,7 @@ public class AppDbContext : DbContext
     {
     }
     
-    public DbSet<Pc> PCs => Set<Pc>();
+    public DbSet<Pc> Pcs => Set<Pc>();
     public DbSet<Component> Components => Set<Component>();
     public DbSet<ComponentManufacturer> ComponentManufacturers => Set<ComponentManufacturer>();
     public DbSet<ComponentType> ComponentTypes => Set<ComponentType>();
